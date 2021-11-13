@@ -1,0 +1,77 @@
+@charset "utf-8";
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.elemento{
+    min-width: 5,55%;
+    width: 5.55%;
+    float: left;
+    height:10%;
+    min-height: 10%;
+}
+.numeroAtomico{
+    text-align: left;
+    margin: 0px;
+    font-size: 12px;
+}
+.simboloQuimico{
+    text-align: center;
+    text-size-adjust: 15;
+    font-size: 20px;
+    margin: 5px;
+}
+.masaAtomica{
+    text-align: center;
+    margin: 0px;
+    font-size: 11px;
+}
+#division1{
+    min-width: 88.8%;
+    width: 88.8%;
+    float: left;
+    height:10px;
+    min-height: 10px;
+}
+.division2Sitios{
+    min-width: 11.1%;
+    height: 11.1%;
+    float: left;
+    height:10px;
+    min-height: 10px;
+}
+.divison7Sitios{
+    min-width: 33.3%;
+    width: 33.3%;
+    float: left;
+    height:10px;
+    min-height: 10px;
+}
+.noMetales{
+    background-color: grey;
+}
+.gasesNobles{
+    background-color:mediumblue;
+}
+.metalesAlcalinos{
+    background-color: yellow;
+}
+.alcalinoterreos{
+    background-color: red;
+}
+.metaloides{
+    background-color: green;
+}
+.halogenos{
+    background-color: cyan;
+}
+.otrosMetales{
+    background-color: darkgreen;
+}
+.metalesDeTransicion{
+    background-color: darkslateblue;
+}
