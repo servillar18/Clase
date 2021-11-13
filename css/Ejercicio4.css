@@ -1,0 +1,25 @@
+@charset "utf-8";
+#id1{
+    font-size: 24pt; color: red; font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#h3_1{
+    color:darkmagenta;
+}
+#id2{
+    color: red;
+}
+#id3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#id3 span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#h3_2{
+    color:green;
+}
+#id4{
+    color: blue;
+}
+#id5{
+    font-size: x-large;
+}
