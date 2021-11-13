@@ -1,4 +1,5 @@
 @charset "utf-8";
+/* ELEMENTOS GENERALES*/
 h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,8 +8,9 @@ p{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* ELEMENTOS DE ELEMENTO*/
 .elemento{
-    min-width: 5,55%;
+    min-width: 5.55%;
     width: 5.55%;
     float: left;
     height:10%;
@@ -21,7 +23,6 @@ p{
 }
 .simboloQuimico{
     text-align: center;
-    text-size-adjust: 15;
     font-size: 20px;
     margin: 5px;
 }
@@ -30,6 +31,7 @@ p{
     margin: 0px;
     font-size: 11px;
 }
+/* SEPARADORES */
 #division1{
     min-width: 88.8%;
     width: 88.8%;
@@ -51,6 +53,7 @@ p{
     height:10px;
     min-height: 10px;
 }
+/* TIPOS DE ELEMENTOS */
 .noMetales{
     background-color: grey;
 }
