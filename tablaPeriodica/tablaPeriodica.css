@@ -11,10 +11,12 @@ p{
 /* ELEMENTOS DE ELEMENTO*/
 .elemento{
     min-width: 5.55%;
+    max-width: 5.55%;
     width: 5.55%;
     float: left;
     height:10%;
     min-height: 10%;
+    max-height: 10%;
 }
 .numeroAtomico{
     text-align: left;
@@ -29,6 +31,10 @@ p{
 .masaAtomica{
     text-align: center;
     margin: 0px;
+    font-size: 11px;
+}
+.altanidosActinidos{
+    text-align: center;
     font-size: 11px;
 }
 /* SEPARADORES */
@@ -77,4 +83,13 @@ p{
 }
 .metalesDeTransicion{
     background-color: darkslateblue;
+}
+.lactanidos{
+    background-color:brown;
+}
+.actinidos{
+    background-color: darkorange;
+}
+.desconocidos{
+    background-color: darkturquoise;
 }
