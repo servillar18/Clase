@@ -35,7 +35,19 @@ p{
 }
 .altanidosActinidos{
     text-align: center;
-    font-size: 11px;
+    font-size: 10.5px;
+}
+.asterisco1{
+    text-align: right;
+    font-size: 20px;
+    margin: 5px;
+    color: brown;
+}
+.asterisco2{
+    text-align: right;
+    font-size: 20px;
+    margin: 5px;
+    color:darkorange;
 }
 /* SEPARADORES */
 #division1{
@@ -44,6 +56,13 @@ p{
     float: left;
     height:10px;
     min-height: 10px;
+}
+.division1Sitios{
+    min-width: 5.55%;
+    height: 5.55%;
+    float: left;
+    height:60px;
+    min-height: 60px;
 }
 .division2Sitios{
     min-width: 11.1%;
@@ -58,6 +77,13 @@ p{
     float: left;
     height:10px;
     min-height: 10px;
+}
+#separacionTotal{
+    min-width: 100%;
+    width: 100%;
+    float: left;
+    height:25px;
+    min-height: 25px;
 }
 /* TIPOS DE ELEMENTOS */
 .noMetales{
@@ -92,4 +118,10 @@ p{
 }
 .desconocidos{
     background-color: darkturquoise;
+}
+.letrasOcultasActinidos{
+    color:darkorange;
+}
+.letrasOcultasLactanidos{
+    color: brown;
 }
