@@ -1,4 +1,8 @@
 @charset "utf-8";
+@font-face {
+    font-family: ahs;
+    src: url(../font/AmericanHorrorStory-Promo.otf);
+}
 #div1{
     background-color: red;
 }
@@ -7,6 +11,7 @@
 }
 #div3{
     background-color: green;
+    font-family: ahs;
 }
 img{
     width: 500px; height: 250px; float: left; padding: 20px;
