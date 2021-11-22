@@ -1,0 +1,28 @@
+@charset "utf-8";
+@charset "utf-8";
+@font-face {
+    font-family: creepster;
+    src: url(../font/Creepster-Regular.ttf);
+}
+#id1{
+    font-family: creepster;
+    font-size: 30px;
+    text-shadow: 5px 3px 2px #7E1E1F;
+}
+#id2{
+    text-shadow: -5px 2px 2px #060, 10px -3px 2px #600;
+}
+#id3{
+    background-color: #808080;
+    color: white;
+    text-shadow: -1px -1px 1px white, 1px 1px 1px #333;
+}
+#id4{
+    background-color: #808080;
+    color: white;
+    text-shadow: -2px -2px 1px #333;
+}
+#id5{
+    color: white;
+    text-shadow: -1px 0px red, 0px 1px red, 1px 0px red, 0px -1px red;
+}
