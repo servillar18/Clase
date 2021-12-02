@@ -1,0 +1,49 @@
+<!-- Autor: Sergio Fecha: 02/12/2021-->
+<!--Ejercicio Formularios Examen v.1-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Informacion sobre el producto</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Informacion sobre el producto">
+    </head>
+    <body>
+        <h1>Información sobre el producto</h1>
+        <form action="index.html" method="post">
+            <fieldset>
+                <legend>Datos básicos</legend>
+                <label for="nombre">Nombre</label>
+                <br>
+                <input type="text" name="nombre" id="nombre">
+                <br>
+                <label for="description">Descriptión</label>
+                <br>
+                <textarea rows="10" cols="30" id="description"></textarea>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Datos económicos</legend>
+                <label for="precio">Precio</label>
+                <input type="text" name="precio" id="precio">
+                <label for="impuesto">€ Impuesto</label>
+                <select name="impuesto">
+                    <option value="4">4%</option> 
+                    <option value="16">16%</option> 
+                    <option value="21">21%</option>
+                </select>
+                <label for="promocion">Promoción</label>
+                <br>
+                <input type="radio" name="promocion" value="promocionNinguno" id="promocionNinguno" checked>
+                <label for="promocionNinguno">Ninguno</label>
+                <br>
+                <input type="radio" name="promocion" value="promocionTransporte" id="promocionTransporte">
+                <label for="promocionTransporte">Tranporte Gratuito</label>
+                <br>
+                <input type="radio" name="promocion" value="promocionDescuento" id="promocionDescuento">
+                <label for="promocionDescuento">Descescuento del 5%</label>
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
